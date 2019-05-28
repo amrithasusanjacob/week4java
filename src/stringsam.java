@@ -48,7 +48,7 @@ public class stringsam {
 				
 				// 7. Make everything lowercase
 				String n="YELLING!";
-				System.out.println(m.toLowerCase());
+				System.out.println(n.toLowerCase());
 	}
 
 }
