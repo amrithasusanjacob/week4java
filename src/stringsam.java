@@ -23,8 +23,32 @@ public class stringsam {
 				String sub2 = name.substring(7);
 				System.out.println("Get substring "+sub2);
 				// 5. Check if one string is equal to another
+				String a = "emad";
+				String b = "moh";
+				String c = "emad";
+				if(a.contentEquals(b))
+				{
+					System.out.println("a&b are same");
+				}
+				else
+				{
+					System.out.println("a&b are not same");
+				}
+				if(a.contentEquals(c))
+				{
+					System.out.println("a&c are same");
+				}
+				else
+				{
+					System.out.println("a&c are not same");
+				}
 				// 6. Make everything uppercase
+				String m="yelling!";
+				System.out.println(m.toUpperCase());
+				
 				// 7. Make everything lowercase
+				String n="YELLING!";
+				System.out.println(m.toLowerCase());
 	}
 
 }
